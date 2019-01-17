@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 212462991}
   - component: {fileID: 212462990}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,7 @@ Transform:
   m_GameObject: {fileID: 212462989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -285,8 +285,9 @@ GameObject:
   - component: {fileID: 332293298}
   - component: {fileID: 332293297}
   - component: {fileID: 332293296}
+  - component: {fileID: 332293300}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: "Rotaci\xF3n"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332293295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.28, y: 2.97, z: 0.01}
+  m_LocalPosition: {x: 3.66, y: 2.97, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1233262191}
@@ -366,6 +367,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332293300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332293295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861d5e86abac4dd439c880a82e3b8980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &480390054
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,8 +391,9 @@ GameObject:
   - component: {fileID: 480390057}
   - component: {fileID: 480390056}
   - component: {fileID: 480390055}
+  - component: {fileID: 480390059}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: "Tama\xF1o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -457,6 +471,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 6.13, y: -17.663, z: 0}
+--- !u!114 &480390059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480390054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81adec74c8db184db58d54533ddf3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,13 +558,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.0970941, y: -0, z: -0, w: 0.99527526}
-  m_LocalPosition: {x: 0, y: 3.549, z: -10}
+  m_LocalRotation: {x: 0.17490934, y: -0, z: -0, w: 0.98458457}
+  m_LocalPosition: {x: 0, y: 4.411, z: -9.231}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 11.144, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.147001, y: 0, z: 0}
 --- !u!1 &864656436
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +580,7 @@ GameObject:
   - component: {fileID: 864656437}
   - component: {fileID: 864656442}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Movimiento
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,7 +699,7 @@ GameObject:
   - component: {fileID: 1209837424}
   - component: {fileID: 1209837423}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: subeYbaja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -746,7 +772,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209837422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.82, y: 2.91, z: -0.05}
+  m_LocalPosition: {x: -2.87, y: 2.91, z: -0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
