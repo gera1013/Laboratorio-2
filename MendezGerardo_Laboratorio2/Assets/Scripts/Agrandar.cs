@@ -17,9 +17,9 @@ public class Agrandar : MonoBehaviour
     {
         Vector3 vector3 = new Vector3(1, 1, 1);
 
-        if(Input.GetKey(KeyCode.LeftShift))
+        if(Input.GetKey(KeyCode.G))
             transform.localScale += new Vector3(Time.deltaTime * mas, Time.deltaTime * mas, Time.deltaTime * mas);
-        else if(Input.GetKey(KeyCode.RightShift))
+        else if(Input.GetKey(KeyCode.P))
             transform.localScale += new Vector3(Time.deltaTime * menos, Time.deltaTime * menos, Time.deltaTime * menos);
     }
 }
